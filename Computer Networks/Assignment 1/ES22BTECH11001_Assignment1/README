@@ -1,0 +1,130 @@
+
+# Computer Networks Assignment 1
+
+This Project is made by:    
+
+Name 1 : Ahmik Virani <br>
+Roll Number 1 : ES22BTECH11001.  
+
+Name 2 : Divya Rajparia <br>
+Roll Number: ES22BTECH11013
+
+This assignment is about Socket Programming
+
+### Conifiguring Mininet Prompt
+1. Open the terminal, and go to “/home/p4/tutorials/exercises/basic”
+2. Run "make clean"
+3. Run "make run"
+
+## Deployment
+
+Please note: These are the syntaxes followed for the HTTP requests:
+
+1. PUT
+```bash
+"PUT /assignment1/key1/val1 HTTP/1.1"
+```
+2. GET
+```bash
+"GET /assignment1?request=key1 HTTP/1.1"
+```
+
+3. DELETE
+```bash
+"DELETE /assignment1/key1 HTTP/1.1"
+```
+
+
+<br>
+1. Client Server without Cache
+
+To open the host terminals, run the below commands:
+
+```bash
+xterm h1
+```
+```bash 
+xterm h2
+```
+<br><br>
+Note: that first you need to open the server socket before running the client
+
+To make the server socket listening, run on Node h2:
+```bash
+bash h2-arp.sh
+```
+Followed by:
+```bash 
+python server.py
+```
+
+To send requests from the client, run on Node h1:
+```bash 
+bash h1-arp.sh
+```
+Followed by:
+```bash 
+python client.py
+```
+Enter the destination IP address in the following input prompt as a string(in quotation marks)
+```bash
+Enter dstIP: 
+```
+Enter the HTTP request in the following input prompt as a string(in quotation marks)
+```bash
+Enter the request:
+``` 
+
+<br><br>
+2. Client Server with Cache
+
+To open the host terminals, run the below commands:
+
+```bash
+xterm h1
+```
+```bash
+xerm h2
+```
+```bash
+xterm h3
+```
+Note: that first you need to open the server socket and cache before running the client
+
+
+
+To make the server socket listening, run on Node h3:
+```bash 
+bash h3-arp.sh
+```
+Followed by:
+```bash
+python server.py
+```
+
+To make the cache socket active, run on Node h2:
+```bash
+bash h2-arp.sh
+```
+Followed by 
+```bash 
+python cache.py
+```
+
+Finally, to send requests from client, run on Node h1:
+```bash 
+bash h1-arp.sh
+```
+Followed by:
+```bash
+python client.py
+```
+
+Enter the destination IP address in the following input prompt as a string(in quotation marks)
+```bash
+Enter dstIP: 
+```
+Enter the HTTP request in the following input prompt as a string(in quotation marks)
+```bash
+Enter the request:
+``` 

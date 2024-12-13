@@ -1,0 +1,54 @@
+
+# Computer Networks Assignment 2
+
+This Project is made by:    
+
+Name : Ahmik Virani <br>
+Roll Number : ES22BTECH11001.  
+
+This assignment is about Stop and Wait
+
+### Conifiguring Mininet Prompt
+1. Go to the respective folder where you would be able to run this application
+2. Run "sudo mn"
+
+## Deployment
+
+<br>
+
+1. To open the host terminals, run the below commands:
+
+```bash
+xterm h1
+```
+```bash 
+xterm h2
+```
+Please note: These are the configurations followed: 
+
+1. 10Mbps bandwidth
+2. 5ms propagation delay
+3. 5% packet loss rate
+
+<br><br>
+
+2. Run the receiver (on h2)
+
+```bash
+python3 ES22BTECH11001_receiverStopWait.py
+```
+
+3. Run the sender (on h1)
+
+```bash
+python3 ES22BTECH11001_senderStopWait.py
+```
+
+Then enter the file name:
+<br>
+Eg. As per the question, enter:
+```bash
+testFile.jpg
+```
+## Output
+The output file will be named my_file.
