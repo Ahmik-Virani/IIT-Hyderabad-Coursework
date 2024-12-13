@@ -1,0 +1,17 @@
+lui x3, 0x10
+ld x4, 0(x3)
+ld x4, 16(x3)
+ld x4, 32(x3)
+ld x4, 48(x3)
+ld x4, 64(x3)
+ld x4, 80(x3)
+ld x4, 96(x3)
+ld x4, 112(x3)
+ld x4, 0(x3)
+ld x4, 16(x3)
+ld x4, 32(x3)
+ld x4, 48(x3)
+ld x4, 64(x3)
+ld x4, 128(x3)
+ld x4, 0(x3)
+addi x0, x0, 0

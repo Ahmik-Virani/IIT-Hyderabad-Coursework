@@ -1,0 +1,43 @@
+# Computer Architecture - CS2323, Lab-7
+
+This Project is made by <br>:
+Student 1: Ahmik Virani (ES22BTECH11001) <br>
+Student 1 : Divya Rajparia (ES22BTECH11013) <br>
+
+This assignment is about making a RISC-V Simulator with Cache. This is an extension of lab 4, but now we are adding cache support.
+  
+  
+### Before Running
+  1. Make sure that an Ubuntu Machine is used
+  2. Ensure that an input file(s) that you want to load exists in the desired location
+  
+## Deployment
+
+Run the following command on the terminal
+
+```bash
+make
+```
+Followed by 
+```bash
+./riscv_sim
+```
+
+On executing the make command, the Makefile will run and create the riscv_sim executable file along with the object file named : "Lab7_ES22BTECH11001_ES22BTECH11013.o"
+
+### Input
+
+All the input must be entered in the terminal itself, and the format must be exactly as specified in the report and the problem statement with no extra space or lines (unless specified)
+
+### Output
+
+All the output will be printed in the terminal and the output files as specified in the problem statement.
+
+### After the testing
+
+You can run
+```bash
+make clean
+```
+
+The above command will delete the object files and executable files.

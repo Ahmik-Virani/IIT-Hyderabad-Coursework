@@ -1,0 +1,5 @@
+cache_sim enable config.txt
+load input.s
+run
+exit
+

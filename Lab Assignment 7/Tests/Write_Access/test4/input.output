@@ -1,0 +1,8 @@
+R: Address: 0x10010, Set: 0x0, Miss, Tag: 0x800, Clean, From update queue
+W: Address: 0x10090, Set: 0x0, Miss, Tag: 0x804, Clean, From update queue
+R: Address: 0x10108, Set: 0x0, Miss, Tag: 0x808, Clean, From update queue
+W: Address: 0x10200, Set: 0x0, Miss, Tag: 0x810, Clean, From update queue
+W: Address: 0x10110, Set: 0x0, Hit, Tag: 0x808, Clean, From update queue
+R: Address: 0x10080, Set: 0x0, Hit, Tag: 0x804, Clean, From update queue
+W: Address: 0x10008, Set: 0x0, Hit, Tag: 0x800, Clean, From update queue
+W: Address: 0x10408, Set: 0x0, Miss, Tag: 0x820, Dirty, From update queue
