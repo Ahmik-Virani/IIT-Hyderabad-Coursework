@@ -1,0 +1,8 @@
+riscv_sim: Lab4_ES22BTECH11001_ES22BTECH11013_Source_Code.o
+	g++ Lab4_ES22BTECH11001_ES22BTECH11013_Source_Code.o -o riscv_sim
+
+Lab4_ES22BTECH11001_ES22BTECH11013_Source_Code.o: Lab4_ES22BTECH11001_ES22BTECH11013_Source_Code.cpp
+	g++ -c Lab4_ES22BTECH11001_ES22BTECH11013_Source_Code.cpp
+
+clean: 
+	rm *.o riscv_sim
