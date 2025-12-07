@@ -1,0 +1,28 @@
+# Reinforcement Learning Assignment 3
+
+This Project is made by : Ahmik Virani.
+Roll Number : ES22BTECH11001.
+
+## Files
+For this problem I have submitted the following files
+- CartPole.ipynb : A python notebook where I have run the experiments and stored the results and made the necessary graphs using the gym environment - CartPole-v0
+- LunarLander.ipynb : A python notebook where I have run the experiments and stored the results and made the necessary graphs using the gym environment - LunarLander-v3
+- script.py : This is the python script which was asked in the question and can be run from the terminal
+
+## Instructions to run script.py
+1. Enter the following command in the folder of script.py to run the python file
+``` bash
+python script.py
+```
+
+2. You will be as asked to enter the configurations, please enter them without any spelling mistakes
+- Type exactly either : "LunarLander-v3" or "CartPole-v0" for the environment
+- Type exactly either : "True" or "False" for the reward-to-go and advantage normalization
+- Type a natural in the number of iterations
+- Type a natural number in the batch size
+- Enter a real number between 0 and 1 for the discount rate and learning rate
+- Enter a natural number for the hidden layer size of the neural network
+
+3. Please note that you would need to wait for some time for this script to run
+
+4. Once successfully run, this would display the learning curves, after which you can close the program
